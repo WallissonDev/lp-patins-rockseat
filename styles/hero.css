@@ -186,3 +186,16 @@ section.hero{
     100% { transform: translateY(-15rem);}
 }
 
+@media (width <= 80rem){
+    section.hero{
+        flex-direction: column-reverse;
+
+        & h1{
+            text-align: center;
+        }
+
+        & .buttons{
+            flex-direction: column;
+        }
+    }
+}

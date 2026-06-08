@@ -52,3 +52,6 @@ a{
     color: inherit;
     text-decoration: none;
 }
+
+@media (width <= 80rem){    
+}
